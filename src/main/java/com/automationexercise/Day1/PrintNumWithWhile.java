@@ -1,0 +1,11 @@
+package com.automationexercise.Day1;
+
+public class PrintNumWithWhile {
+    static void main() {
+        int i = 1;
+        while (i <= 100) {
+            System.out.println(i);
+            i += 2;
+        }
+    }
+}

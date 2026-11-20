@@ -37,6 +37,7 @@ public class PersonTest {
         assertEquals("Normal weight", person.getBodyMassIndex(70, 1.75));
         assertEquals("Overweight", person.getBodyMassIndex(85, 1.75));
         assertEquals("Obese", person.getBodyMassIndex(100, 1.75));
+
         // TODO: Test invalid and boundary inputs (zero, negative values, > 600 weight, > 3.0 height)
         assertEquals("Invalid input", person.getBodyMassIndex(0, 1.75));
         assertEquals("Invalid input", person.getBodyMassIndex(-10, 1.75));
